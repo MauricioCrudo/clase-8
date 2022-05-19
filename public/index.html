@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>desafio clase 8</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Formulario api de productos</h1>
+			<form action="/api/productos" method="POST" enctype="multipart/form-data">
+				<label for="title"> Titulo del producto </label>
+				<input type="text" placeholder="titulo" name="title" />
+				<label for="price">Precio del producto</label>
+				<input type="number" name="price" placeholder="precio" />
+				<label for="thumbnail">Url de la thumbnail</label>
+				<input type="text" placeholder="Thumbnail" />
+				<input type="submit" />
+			</form>
+		</div>
+	</body>
+</html>
